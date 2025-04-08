@@ -28,12 +28,14 @@ title:
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Master student, Department of Chemical Engineering
+  Master studentDepartment of Chemical Engineering
   Chung-Ang University
   Phone: +82.10.9286.9766
 # A shorter description for the sidebar.
 tagline:                
-  Master student, Department of Chemical Engineering
+  Master student
+  <br/> 
+  Department of Chemical Engineering
   <br/> 
   Chung-Ang University
   <br/> 
