@@ -21,7 +21,9 @@ lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
 title:                 
-   Joohyun Lee     (이주현, 李周炫)
+   Joohyun Lee
+   <br/> 
+   (이주현, 李周炫)
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -32,7 +34,9 @@ description:           >
 # A shorter description for the sidebar.
 tagline:                
   Master student, Department of Chemical Engineering
+  <br/> 
   Chung-Ang University
+  <br/> 
   Phone +82.10.9286.9766
 
 # A list of keywords for your blog
