@@ -20,7 +20,9 @@ url:                   https://Jin-Joohyun-Lee.github.io
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Joohyun Lee (이주현, 李周炫)
+title:                 
+   Joohyun Lee 
+  (이주현, 李周炫)
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -29,7 +31,10 @@ description:           >
   Chung-Ang University
   Phone: +82.10.9286.9766
 # A shorter description for the sidebar.
-tagline:               Change `tagline` in `_config.yml`
+tagline:                
+  Master student, Department of Chemical Engineering
+  Chung-Ang University
+  Phone: +82.10.9286.9766
 
 # A list of keywords for your blog
 keywords:              []
@@ -49,8 +54,8 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Example
-    url:               /example/
+  - title:             CV
+    url:               /CV/
   - title:             Documentation
     url:               /docs/
   - title:             About
