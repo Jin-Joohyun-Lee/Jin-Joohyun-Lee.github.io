@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+:root {
+  --text: #1a1a1a;
+  --muted: #666;
+  --link: #1772d0;
+  --link-hover: #f09228;
+  --rule: #e5e5e5;
+  --bg: #ffffff;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+a { color: var(--link); text-decoration: none; }
+a:hover, a:focus { color: var(--link-hover); }
+
+table.page { width: 100%; max-width: 820px; margin: 0 auto; border: 0; border-spacing: 0; }
+table.page > tbody > tr > td { padding: 0 20px; }
+table.block { width: 100%; border: 0; border-spacing: 0; }
+table.block td { vertical-align: top; }
+
+td.bio { padding: 28px 24px 12px 0; width: 63%; }
+td.photo { padding: 36px 0 12px 0; width: 37%; text-align: center; }
+img.profile { width: 100%; max-width: 240px; border-radius: 50%; aspect-ratio: 1 / 1; object-fit: cover; background: #eee; }
+
+.name { font-size: 32px; margin: 0 0 14px; text-align: center; }
+.name-ko { font-size: 20px; color: var(--muted); margin-left: 6px; }
+.links { text-align: center; }
+
+h2 { font-size: 21px; font-weight: 700; margin: 26px 0 8px; padding-bottom: 4px; border-bottom: 1px solid var(--rule); }
+
+ul { padding-left: 20px; margin: 6px 0; }
+ul.news, ul.plain { list-style: none; padding-left: 0; }
+ul.news li, ul.plain li, ul.topics li { margin-bottom: 7px; }
+.date { display: inline-block; min-width: 46px; font-weight: 700; color: var(--muted); }
+.muted { color: var(--muted); }
+
+.pub { margin: 0 0 16px; }
+.pub p { margin: 0; }
+.pub .title { font-weight: 700; }
+.pub .authors { color: #333; }
+.pub .venue { color: var(--muted); }
+.note { font-size: 13px; color: var(--muted); margin: 0 0 10px; }
+
+.footer { font-size: 13px; color: var(--muted); text-align: right; margin: 30px 0 24px; }
+
+@media (max-width: 640px) {
+  table.block > tbody > tr { display: flex; flex-direction: column-reverse; }
+  td.bio, td.photo { width: 100%; padding-right: 0; }
+  td.photo { padding-top: 24px; }
+  img.profile { max-width: 170px; }
+  .name { font-size: 28px; }
+}
