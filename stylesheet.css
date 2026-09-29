@@ -87,4 +87,4 @@ figure.rfig figcaption { margin-top: 8px; font-size: 12.5px; }
 .links.icons { display: flex; justify-content: center; gap: 22px; margin-top: 16px; }
 .links.icons a { color: #555; display: inline-flex; transition: transform .15s, color .15s; }
 .links.icons a:hover { color: var(--link); transform: translateY(-2px); }
-.links.icons svg { width: 30px; height: 30px; }
+.links.icons svg { width: 26px; height: 26px; }
