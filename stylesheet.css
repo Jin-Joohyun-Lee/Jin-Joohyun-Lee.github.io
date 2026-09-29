@@ -83,3 +83,8 @@ a.poster img { width: 100%; height: auto; display: block; border-radius: 4px; bo
 figure.rfig { margin: 14px 0 22px; padding: 14px 14px 8px; background: #f6f7f9; border: 1px solid #dfe3e8; border-radius: 10px; }
 figure.rfig img.figure { margin: 0 auto; max-width: 100%; background: #fff; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,.10); }
 figure.rfig figcaption { margin-top: 8px; font-size: 12.5px; }
+
+.links.icons { display: flex; justify-content: center; gap: 22px; margin-top: 16px; }
+.links.icons a { color: #555; display: inline-flex; transition: transform .15s, color .15s; }
+.links.icons a:hover { color: var(--link); transform: translateY(-2px); }
+.links.icons svg { width: 30px; height: 30px; }
